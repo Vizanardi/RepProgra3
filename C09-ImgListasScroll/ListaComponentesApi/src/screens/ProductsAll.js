@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import { FlatList } from "react-native-web";
-import Card from "../Components/Card";
+import Card from "../../Components/Card";
 
 class ProductsAll extends React.Component {
     constructor(props) {

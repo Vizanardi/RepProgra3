@@ -19,14 +19,16 @@ const styles = StyleSheet.create({
     boton: {
         padding: 4,
         backgroundColor: '#ccc',
-        marginBottom: 10,
         borderRadius: 4,
+        marginBottom: 10,
     },
-    text:{
-        textAlign: 'center',
+    text: {
         color: 'black',
-        fontWeight: 'bold'
+        fontWeight: "bold",
+         textAlign: 'center'
+
     }
+
 });
 
 export default BotonSaludar;

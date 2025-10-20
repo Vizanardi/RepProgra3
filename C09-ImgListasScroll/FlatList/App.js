@@ -1,11 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image } from 'react-native';
-import Home from './src/screens/Home';
+import { StyleSheet, Text, View } from 'react-native';
+import ProductsList from './Screens/ProductsList';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Home />
+      <Text style={styles.Text}>Probando FlatLists</Text>
+      <ProductsList />
     </View>
   );
 }
@@ -17,9 +17,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  text: {
-    textAlign: 'center',
-    fontWeight: 'bold',
+  Text: {
     fontSize: 20,
+    fontWeight: 'bold'
   }
 });
